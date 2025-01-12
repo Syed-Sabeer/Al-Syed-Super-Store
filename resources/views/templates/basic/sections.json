@@ -1,0 +1,297 @@
+{
+    "banner": {
+        "page": "home",
+        "builder": true,
+        "no_selection": true,
+        "name": "Banner Section",
+        "content": {
+            "images": {
+                "fixed_banner": {
+                    "size": "300x510"
+                }
+            },
+            "fixed_banner_link": "text"
+        },
+        "elements_title": "Sliding Banners",
+        "element": {
+            "images": {
+                "slider": {
+                    "size": "1284x345"
+                }
+            },
+            "link": "text",
+            "modal": true
+        }
+    },
+    "top_selling_products": {
+        "page": "home",
+        "builder": true,
+        "name": "Top Selling Products Section",
+        "content": {
+            "title": "text"
+        }
+    },
+    "featured_categories": {
+        "page": "home",
+        "builder": true,
+        "name": "Featured Categories Section",
+        "content": {
+            "title": "text"
+        }
+    },
+    "featured_brands": {
+        "page": "home",
+        "builder": true,
+        "name": "Featured Brands Section",
+        "content": {
+            "title": "text"
+        }
+    },
+    "services": {
+        "builder": true,
+        "name": "Service Section",
+        "element": {
+            "images": {
+                "image": {
+                    "size": "60x50"
+                }
+            },
+            "title": "text",
+            "subtitle": "text",
+            "modal": true
+        }
+    },
+    "about_us": {
+        "page": "about",
+        "builder": true,
+        "name": "About Us Section",
+        "content": {
+            "images": {
+                "banner_image": {
+                    "size": "1912x314"
+                },
+                "image": {
+                    "size": "686x528"
+                }
+            },
+            "banner_heading": "text",
+            "heading": "text",
+            "subheading": "text",
+            "button_text": "text",
+            "button_link": "url",
+            "description": "textarea-nic"
+        }
+    },
+    "counter": {
+        "page": "about",
+        "builder": true,
+        "name": "Counter Section",
+        "element": {
+            "images": {
+                "image": {
+                    "size": "50x50"
+                }
+            },
+            "title": "text",
+            "counter_value": "text",
+            "modal": true
+        }
+    },
+    "quote": {
+        "page": "about",
+        "builder": true,
+        "name": "Quote Section",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "265x600"
+                }
+            },
+            "quote": "textarea",
+            "name": "text",
+            "designation": "text"
+        }
+    },
+    "feature": {
+        "page": "about",
+        "builder": true,
+        "name": "Feature Section",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "300x410"
+                }
+            },
+            "heading": "text",
+            "subheading": "text",
+            "description": "textarea"
+        },
+        "element": {
+            "title": "text",
+            "description": "text",
+            "icon": "icon",
+            "modal": true
+        }
+    },
+    "faq_page": {
+        "builder": true,
+        "no_selection": true,
+        "name": "FAQ Page",
+        "content": {
+            "page_title": "text",
+            "description": "textarea-nic"
+        }
+    },
+    "contact_page": {
+        "builder": true,
+        "name": "Contact Page",
+        "no_selection": true,
+        "content": {
+            "address_heading": "text",
+            "form_heading": "text",
+            "description": "text"
+        },
+        "element": {
+            "title": "text",
+            "value": "text",
+            "icon": "icon",
+            "modal": true
+        }
+    },
+    "newsletter": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Newsletter Section",
+        "content": {
+            "heading": "text",
+            "description": "text"
+        }
+    },
+    "social_icon": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Social Links",
+        "element": {
+            "title": "text",
+            "social_icon": "icon",
+            "url": "text",
+            "modal": true
+        }
+    },
+    "footer": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Footer Section",
+        "content": {
+            "images": {
+                "logo": {
+                    "size": ""
+                },
+                "payment_methods": {
+                    "size": "250x30"
+                }
+            },
+            "contact_heading":"text",
+            "cell_number": "text",
+            "email": "text",
+            "contact_address": "text",
+            "footer_note": "text",
+            "copyright_text": "text"
+        }
+    },
+    "register_page": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Registration Page",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "755x570"
+                }
+            },
+            "title": "text"
+        }
+    },
+    "profile_complete_page": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Profile Complete Page",
+        "content": {
+            "title": "text",
+            "description": "textarea"
+        }
+    },
+    "auth_pages_bg": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Authentication Pages Background",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "1920x1080"
+                }
+            }
+        }
+    },
+    "login_page": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Login Page",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "755x570"
+                }
+            }
+        }
+    },
+    "forgot_password_page": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Forgot Password Page",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "755x570"
+                }
+            },
+            "title": "text",
+            "description": "textarea"
+        }
+    },
+    "reset_password_page": {
+        "builder": true,
+        "name": "Reset Password Page",
+        "no_selection": true,
+        "content": {
+            "images": {
+                "image": {
+                    "size": "755x570"
+                }
+            },
+            "title": "text",
+            "description": "textarea"
+        }
+    },
+    "policy_pages": {
+        "builder": true,
+        "no_selection": true,
+        "hide_builder": true,
+        "name": "Policy Pages",
+        "element": {
+            "title": "text",
+            "slug": "title",
+            "details": "textarea-nic",
+            "modal": false
+        }
+    },
+    "order_confirmation":{
+        "builder":true,
+        "no_selection":true,
+        "name":"Order Confirmation Page",
+        "content":{
+            "title":"text",
+            "description":"textarea"
+        }
+    }
+}

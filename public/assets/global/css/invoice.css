@@ -1,0 +1,97 @@
+.float-left {
+    float: left;
+}
+
+table.table.print-payment-table.border-0 {
+    max-width: 500px;
+    margin-left: auto;
+}
+
+.float-right {
+    float: right;
+}
+
+.logo-invoice {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 200px;
+    height: 50px;
+}
+
+.logo-invoice img {
+    width: 100%;
+    max-width: 200px;
+}
+
+.print-table thead tr th {
+    font-size: 14px;
+    border-bottom: none !important;
+}
+
+.print-table tbody tr td {
+    font-size: 14px;
+}
+
+.print-payment-table.table tbody tr td:last-child {
+    border-right: none !important;
+}
+
+.print-payment-table tbody tr {
+    font-size: 14px;
+}
+
+.print-payment-table.table>:not(caption)>*>* {
+    border-bottom: none;
+}
+
+.table>:not(:first-child) {
+    border-top: none !important;
+}
+
+.list--row {
+    flex-direction: row !important;
+}
+
+.invoice {
+    background: #fff;
+    padding: 20px;
+}
+
+address>ul {
+    padding: 0.2rem 2rem;
+    padding-left: 0px
+}
+
+ul li {
+    padding: 0;
+    line-height: 24px;
+    list-style: none !important;
+}
+
+.table>:not(caption)>*>* {
+    padding: 0.3rem 0.5rem;
+}
+
+@page {
+    size: auto;
+    margin: 0mm;
+}
+
+hr {
+    border-top: 1px solid #ccc;
+}
+
+table.table.print-payment-table tbody tr th,
+table.table.print-payment-table tbody tr td {
+    border-bottom: 1px dashed hsl(var(--border)) !important;
+}
+
+.subtotal-container {
+    page-break-inside: avoid;
+}
+
+body {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+}

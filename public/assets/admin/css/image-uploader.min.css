@@ -1,0 +1,167 @@
+/*! Image Uploader - v1.2.3 - 26/11/2019
+ * Copyright (c) 2019 Christian Bayer; Licensed MIT */
+
+[class*=iui-],
+[class^=iui-] {
+     font-family: 'Image Uploader Icons' !important;
+     speak: none;
+     font-style: normal;
+     font-weight: 400;
+     font-variant: normal;
+     text-transform: none;
+     line-height: 1;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale
+}
+
+.iui-close:before {
+     font-family: 'Line Awesome Free';
+     font-weight: 900;
+     content: "\f00d"
+}
+
+.iui-cloud-upload:before {
+     font-family: 'Line Awesome Free';
+     font-weight: 900;
+     content: "\f382"
+}
+
+.file-uploader {
+     min-height: 10rem;
+     border: 1px solid #d9d9d9;
+     position: relative
+}
+
+.file-uploader.drag-over {
+     background-color: #f3f3f3
+}
+
+.file-uploader input[type=file] {
+     width: 0;
+     height: 0;
+     position: absolute;
+     z-index: -1;
+     opacity: 0
+}
+
+.file-uploader .upload-text {
+     position: absolute;
+     top: 0;
+     right: 0;
+     left: 0;
+     bottom: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column
+}
+
+.file-uploader .upload-text i {
+     display: block;
+     font-size: 3rem;
+     margin-bottom: .5rem
+}
+
+.file-uploader .upload-text span {
+     display: block
+}
+
+.file-uploader.has-files .upload-text {
+     display: none
+}
+
+.file-uploader .uploaded {
+     padding: .5rem;
+     line-height: 0
+}
+
+.file-uploader .uploaded .uploaded-file {
+     display: inline-block;
+     width: calc(16.6666667% - 1rem);
+     padding-bottom: calc(16.6666667% - 1rem);
+     height: 0;
+     position: relative;
+     margin: .5rem;
+     background: #f3f3f3;
+     cursor: default;
+     border: 1px solid #dbdbdb;
+     border-radius: 8px;
+     overflow: hidden;
+}
+
+.file-uploader .uploaded .uploaded-file img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     position: absolute
+}
+
+.file-uploader .uploaded .uploaded-file .delete-file-button {
+     display: none;
+     cursor: pointer;
+     position: absolute;
+     top: .2rem;
+     right: .2rem;
+     border-radius: 50%;
+     padding: .3rem;
+     line-height: 1;
+     background-color: rgba(0, 0, 0, .5);
+     -webkit-appearance: none;
+     border: none
+}
+
+.file-uploader .uploaded .uploaded-file:hover .delete-file-button {
+     display: block
+}
+
+.file-uploader .uploaded .uploaded-file .delete-file-button i {
+     display: block;
+     color: #fff;
+     width: 1rem;
+     height: 1rem;
+     font-size: 1rem;
+     line-height: 1rem;
+}
+
+@media screen and (max-width:1366px) {
+     .file-uploader .uploaded .uploaded-file {
+          width: calc(20% - 1rem);
+          padding-bottom: calc(20% - 1rem)
+     }
+}
+
+@media screen and (max-width:992px) {
+     .file-uploader .uploaded {
+          padding: .4rem
+     }
+
+     .file-uploader .uploaded .uploaded-file {
+          width: calc(25% - .8rem);
+          padding-bottom: calc(25% - .4rem);
+          margin: .4rem
+     }
+}
+
+@media screen and (max-width:786px) {
+     .file-uploader .uploaded {
+          padding: .3rem
+     }
+
+     .file-uploader .uploaded .uploaded-file {
+          width: calc(33.3333333333% - .6rem);
+          padding-bottom: calc(33.3333333333% - .3rem);
+          margin: .3rem
+     }
+}
+
+@media screen and (max-width:450px) {
+     .file-uploader .uploaded {
+          padding: .2rem
+     }
+
+     .file-uploader .uploaded .uploaded-file {
+          width: calc(50% - .4rem);
+          padding-bottom: calc(50% - .4rem);
+          margin: .2rem
+     }
+}
